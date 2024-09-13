@@ -1,5 +1,10 @@
 # README
 
+**Suported Platforms**:
+    - Windows
+
+Pull Requests for OSX and Linux are welcome!
+
 **Deps**:
 
 - GLFW 3.4
