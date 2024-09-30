@@ -24,3 +24,21 @@ Pull Requests for OSX and Linux are welcome!
 - OpenGL + GLFW (Emscripten) - WIP
 
 - WGPU(Dawn) + GLFW (Emscripten) - WIP
+
+**Helpful Links**:
+
+- ImGui Wiki<https://github.com/ocornut/imgui/wiki/>
+
+- 10 years of Dear ImGui Blog Post: <https://github.com/ocornut/imgui/issues/7892>
+
+- Online Manual for ImGui: <https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html>
+
+- The ImGui Test Engine: <https://github.com/ocornut/imgui_test_engine>
+
+- More advanced ImGui starter codebase: <https://github.com/pthom/hello_imgui>
+
+- A starter pack that contains various ImGui widgets: <https://github.com/pthom/imgui_bundle>
+
+- Useful ImGui Extensions: <https://github.com/ocornut/imgui/wiki/Useful-Extensions>
+
+- ImDrawList coding party: <https://github.com/ocornut/imgui/issues/3606>
