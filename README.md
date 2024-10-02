@@ -14,16 +14,16 @@ Pull Requests for OSX and Linux are welcome!
 
 **Versions**:
 
-- OpenGL + GLFW (Complete)
+- OpenGL + GLFW Base Example (Complete) (./src/opengl3_glfw/base_example)
     1. Read this <https://code.visualstudio.com/docs/cpp/config-msvc#_prerequisites> and complete steps 1 to 3 of the prereqs
     2. Navigate to src/opengl3_glfw
     3. Run "build_and_run.bat"
 
-- WGPU(Dawn) + GLFW  - WIP
+- WGPU(Dawn) + GLFW Base Example - WIP
 
-- OpenGL + GLFW (Emscripten) - WIP
+- OpenGL + GLFW Base Example (Emscripten) - WIP
 
-- WGPU(Dawn) + GLFW (Emscripten) - WIP
+- WGPU(Dawn) + GLFW Base Example (Emscripten) - WIP
 
 **Helpful Links**:
 
