@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(OpenGL REQUIRED)
 
 # Set paths to look for libraries and includes
-set(LIBS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../libs")
-set(INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../include")
+set(LIBS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../../libs")
+set(INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../../include")
 
 # Set GLFW settings
 set(GLFW_DIR "${LIBS_DIR}/glfw")
@@ -20,7 +20,7 @@ set(GLFW_LIBRARY "${GLFW_DIR}/glfw3.lib")
 set(GLAD_INCLUDE_DIR "${INCLUDE_DIR}/glad")
 
 # Add ImGui source files
-set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/../../libs/imgui)
+set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/../../../libs/imgui)
 set(IMGUI_SOURCES
     ${IMGUI_DIR}/imgui.cpp
     ${IMGUI_DIR}/imgui_demo.cpp
@@ -33,7 +33,7 @@ set(IMGUI_SOURCES
 
 # Add GLAD source
 set(GLAD_SOURCES
-    ${CMAKE_CURRENT_SOURCE_DIR}/glad.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/../glad.c
 )
 
 # Add your main source file
